@@ -39,10 +39,10 @@ Make sure you have the following installed:
    The server should run on http://localhost:3000
 
 ## Users
-admin:
+### admin
    username: chay,  password: chay123
    username: admin,  password: admin123
-non-admin:
+### non-admin
    username: shimon,  password: shimon123
    username: nonadmin,  password: nonadmin
 
