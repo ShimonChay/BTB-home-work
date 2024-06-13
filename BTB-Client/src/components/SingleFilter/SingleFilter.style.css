@@ -1,0 +1,28 @@
+@import '../../global/colors.css';
+
+.filterContainer {
+  min-width: 330px;
+  display: flex;
+  margin: 10px;
+}
+
+.field {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border: 0.5rem solid var(--primaryStateGray);
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  color: #343a40;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.dropdownOption {
+  font-size: 1em;
+}
+
+.selectedOption {
+  margin-top: 10px;
+  font-size: 1.1em;
+  color: #007BFF;
+}

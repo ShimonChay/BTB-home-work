@@ -1,0 +1,30 @@
+@import '../../global/colors.css';
+
+.header {
+    color: var(--primaryGarnet);
+    text-align: center  ;
+}
+
+.singInButton {
+    width: 100%;
+    margin-top: 50px;
+    background-color: var(--primaryGarnet);
+}
+
+#loginPage {
+    width: 80vw;
+    max-width: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textField {
+    margin: 15px;
+    width: 100%;
+    background-color: var(--primaryWhite);
+    border-radius: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+}

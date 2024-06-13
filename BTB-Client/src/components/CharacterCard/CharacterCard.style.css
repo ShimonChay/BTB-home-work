@@ -1,0 +1,80 @@
+@import "../../global/colors.css";
+
+.card {
+  width: fit-content;
+  max-width: 150px;
+  margin: 1.5rem;
+  height: inherit;
+  border-radius: 5px;
+  color: white;
+  background-color: var(--primaryStateGray);
+  padding: 15px;
+}
+
+.characterImg {
+  border-radius: 5px;
+  max-height: 150px;
+}
+
+.cardIndication {
+  margin: 10px;
+  display: flex;
+}
+
+.indName {
+  margin-left: 5px;
+}
+
+.clickableCard:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 655px) {
+  .card {
+    display: flex;
+    min-width: 20rem;
+    max-width: 90vw;
+    margin: 0.5rem;
+    background-color: var(--primaryStateGray);
+    padding: 10px 10px 0 10px;
+  }
+}
+
+.adminTitle {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+
+.adminInfo {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  max-width: calc(100vw - 100px);
+  word-wrap: break-word;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.list {
+  list-style-type: none;
+  padding-left: 20px;
+  margin: 5px 0;
+}
+
+.listItem {
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}

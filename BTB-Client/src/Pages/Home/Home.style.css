@@ -1,0 +1,21 @@
+@import '../../global/colors.css';
+
+.homeContent {
+  margin-top: 7rem;
+  padding-bottom: 5rem;
+}
+
+.homeHeader {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+  left: 0;
+  width: 99vw;
+  height: 4rem;
+  background-color: var(--primaryStateGray);
+}
+
+.logout {
+  margin: 20px;
+}
