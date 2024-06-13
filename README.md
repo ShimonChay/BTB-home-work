@@ -40,11 +40,11 @@ Make sure you have the following installed:
 
 ## Users
 ### admin
-   username: chay,  password: chay123
-   username: admin,  password: admin123
+   1. username: chay,  password: chay123
+   2. username: admin,  password: admin123
 ### non-admin
-   username: shimon,  password: shimon123
-   username: nonadmin,  password: nonadmin
+   1. username: shimon,  password: shimon123
+   2. username: nonadmin,  password: nonadmin
 
 ## Notes
 
